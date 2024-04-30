@@ -7,6 +7,8 @@ no longer use datacube functions (with the exception of the geomedian notebook, 
 
 The functions to read the GeoTIFFs as arrays, stack, align, and resample them, etc. are located in notebook_functions.py, along with cloud and water masking functions.  Functions for fractional_coverage_classifier and shoreline extraction functions from Satellite Applications Catapult are located in utilities.py. 
 
+Imagery data that was used to test and develop these products is stored in dropbox (Data/STAC_Portal_Data/) as a zipped folder. This folder can be unzipped and placed inside the folder with the code to run the Python scripts locally.
+
 ## File Structure:
 **AncillaryData** -> folder contains endmembers_landsat.csv, which is used for fractional coverage classifying.
 
