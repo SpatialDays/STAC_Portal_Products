@@ -103,10 +103,9 @@ if __name__ == "__main__":
         y = 1000
     )
 
-    baseline_dir = '/home/spatialdays/Documents/ARD_Data/StMaarten_Landsat_baseline/'
-    analysis_dir = '/home/spatialdays/Documents/ARD_Data/StMaarten_Landsat_analysis/'
-
-    output_dir = '/home/spatialdays/Documents/product-notebooks/output/'
+    baseline_dir = 'ImageryData/StMaarten_Landsat_baseline/'
+    analysis_dir = 'ImageryData/StMaarten_Landsat_analysis/'
+    output_dir = 'output/'
 
     # Running on data from St Maarten
     run_product(baseline_dir, analysis_dir, product, allmeasurements, dask_chunks, clip_coords, output_dir)

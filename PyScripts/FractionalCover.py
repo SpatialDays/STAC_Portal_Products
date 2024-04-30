@@ -95,8 +95,7 @@ if __name__ == "__main__":
     # Select relevant bands
     measurements = ["blue", "green", "red", "nir", "swir1", "swir2", "pixel_qa"]
 
-    data_dir = '/home/spatialdays/Documents/ARD_Data/StMaarten_Landsat/'
-    output_dir = '/home/spatialdays/Documents/product-notebooks/output/'
-
+    data_dir = 'ImageryData/StMaarten_Landsat/'
+    output_dir = 'output/'
     # Running on data from St Maarten
     run_product(data_dir, product, measurements, dask_chunks, clip_coords, output_dir)
